@@ -22,6 +22,7 @@ sales_data = [
     {"day": 20, "product_a": 210, "product_b": 57, "product_c": 324}
 ]
 
+
 def total_sales_by_product(data, product_key):
     """Calculates the total sales of a specific product in 30 days."""
 
@@ -72,7 +73,6 @@ def best_selling_day(data):
     return winner
 
 
-
 def days_above_threshold(data, product_key, threshold):
     """Counts how many days the sales of a product exceeded a given threshold."""
     
@@ -111,7 +111,6 @@ def top_product(data):
                 winner = product
     
     return winner
-
 
 
 # Function tests
